@@ -589,3 +589,305 @@
 //         System.out.println("here is the answer: " + result);
 //     }
 // }
+
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         int a = 1;
+//         while (a <= 10) {
+//             System.out.println(a);
+//             a++;
+            
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         System.out.println("welcome to function & loop class");
+
+//         pattern();
+//     }
+
+//     public static void pattern(){
+//         int rows = 0;
+//         while (rows < 5) {
+//             System.out.print("*");
+
+//             int i = 0;
+//             while (i < rows) {
+//                 System.out.print(" *");
+//                 i++;
+//             }
+//             System.out.println();
+
+//             rows++;
+//         } 
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// return statement
+
+// import java.util.Scanner;
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         int first = returnStatement();
+//         int second = returnStatement();
+
+//         int sum = first + second;
+//         System.out.println("here is the the result: " + sum);
+//     }
+
+//     public static int returnStatement(){
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("Please enter the number: ");
+//         int number = input.nextInt();
+
+//         return number;
+//     }
+// }
+
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         System.out.println(argument_parameters(4, 9));
+//     }
+
+//     public static int argument_parameters(int first, int second){
+//         System.out.println("the number recieved: " + first);
+//         System.out.println("the number recieved: " + second);
+        
+//         return first + second;
+//     }
+// }
+
+
+
+// multiplication table__________________
+
+// import java.util.Scanner;
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.println("Welcome to get the table..");
+//         System.out.print("Enter the number: ");
+//         int table = input.nextInt();
+//         number_table(table);
+//     }
+
+//     public static int number_table(int table) {
+//         int i = 1;
+//         while (i <= 10) {
+//             System.out.println(table + " X " + i + " = " + (i*table));
+//             i++;
+//         }
+//         return table;
+//     }
+// }
+
+
+
+// get the sum of he odd ---------------------
+
+// import java.util.Scanner;
+
+// public class practical_set {
+ 
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.println("welcom to get sum of all odd...");
+//         System.out.print("Enter the number: ");
+//         int num = input.nextInt();
+//         int sum = OddSum(num);
+//         System.out.println("oddsum till " + num + " is: " + sum);
+//     }
+//     public static int OddSum(int num) {
+//         int sum = 0;
+//         int i = 1;
+//         while (i <= num) {
+//             sum += i;
+//             i += 2;
+//         }
+//         return sum;
+//     }
+// }
+
+
+
+
+
+
+// get the factorial of the number ________________
+
+// import java.util.Scanner;
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         try (Scanner input = new Scanner(System.in)) {
+//             System.out.println("welcome to get the factorial...");
+//             System.out.print("Enter the number: ");
+//             int number = input.nextInt();
+//             long fact = factorial(number);
+//             System.out.println("here is the factorial: "+fact +" of the number " + number );
+//         }
+        
+//     }
+//     public static long factorial(int number) {
+//         if (number < 2) {
+//             return 1;
+//         }
+
+//         int i = 2;
+//         long fact = 1;
+
+//         while (i <= number) {
+//             fact *= i;
+//             i++;
+//         }
+//         return fact;
+//     }
+// }
+
+
+
+
+
+// create the program to calculate the sum of the digits of an integer.
+
+// import java.util.Scanner;
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("Enter the number: ");
+//         int number = input.nextInt();
+//         int sum = sum_of_digits(number);
+//         System.out.println("here is the sum: " + sum);
+//     }
+
+//     public static int sum_of_digits(int number){
+//         int sum = 0;
+//         while (number > 0) {
+//             sum += number % 10;
+//             number /= 10;
+//         }
+//         return sum;
+//     }
+// }
+
+
+
+
+
+
+// create the program to find the lcm of two numbers.
+
+// import java.util.Scanner;
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("enter te first number: ");
+//         int first = input.nextInt();
+//         System.out.print("enter the second number: ");
+//         int second = input.nextInt();
+//         int lcm = LCM(first, second);
+//         System.out.println("lcm of the two numbers: " +lcm);
+//     }
+//     public static int LCM(int first, int second){
+//         int i = 1;
+//         while (i <= second) {
+//             int factor = first * i;
+//             if (factor % second == 0 ) {
+//                 return factor; 
+//             }
+//             i++;
+//         }
+//         return 0;
+//     }
+// }
+
+
+
+
+
+
+
+// create the program to find the gcd (gratest commen divisor)
+// of the two numbers.
+
+// import java.util.Scanner;
+
+// public class practical_set {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("Enter the first number: ");
+//         int first = input.nextInt();
+//         System.out.print("enter the second number: ");
+//         int second = input.nextInt();
+//         int gcd = gcd(first, second);
+//         System.out.println("here is your gcd: " + gcd);
+//     }
+//     public static int gcd (int first, int second){
+//         int gcd = 1;
+//         int i = 2;
+//         int least = least(first, second);
+//         while (i <= least) {
+//             if (first % i == 0 && second % i == 0) {
+//                 gcd = i;
+//             }
+//             i++;
+//         }
+//         return gcd;
+//     }
+//     public static int least(int first, int second){
+//         if (first < second) {
+//             return first;
+//         }else {
+//             return second;
+//         }
+//     }
+// }
+
+
+
+
+
+
+// create a program to check weather a given number is prime.
+
+import java.util.Scanner;
+
+class primeNumbers {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("welcome to prime number checker..");
+        
+    }
+}
