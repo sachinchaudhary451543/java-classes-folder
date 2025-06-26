@@ -881,13 +881,74 @@
 
 // create a program to check weather a given number is prime.
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class primeNumbers {
+// class primeNumbers {
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("welcome to prime number checker..");
-        
-    }
-}
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.println("welcome to prime number checker..");
+//         System.out.print("enter your number: ");
+//         int num = input.nextInt();
+//         boolean isPrime = isPrime(num);
+//         if (isPrime) { 
+//             System.out.println("number is prime");
+//         }else {
+//             System.out.println("yoour number is not prime..");
+//         }
+//     }
+
+//     public static boolean isPrime(int num){
+//         int i = 2;
+//         while (i < num) {
+//             if (num % i == 0) {
+//                 return false;
+//             }
+//             i++;
+//         }
+//         return true;
+//     }
+// }
+
+
+
+
+
+
+// create a program to reverse the digits of a number.
+
+// import java.util.Scanner;
+
+// class reverseDigits {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.println("welcome to reverse the digits");
+//         System.out.print("enter the digits: ");
+//         int num = input.nextInt();
+//         int reverse = reverse(num);
+//         System.out.println("reverse of your number is: " + reverse);
+//     }
+//     public static int reverse(int num){
+
+//         int newNum = 0;
+//         while (num > 0) {
+//             int digit = num % 10;
+//             newNum = newNum * 10 + digit;
+//             num /= 10;
+//         }
+
+//         return newNum;
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// create a program to print the fibonacci series up to a certain number.
