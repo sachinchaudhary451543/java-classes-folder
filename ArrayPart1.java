@@ -1,3 +1,6 @@
+// it's a single dimensional array. arrays are having dimensions like 2D,3D array.
+
+
 // type 1 to take the array with the seprate indexes (multiple variable) and call them seprately
 
 import java.util.Scanner;
@@ -121,3 +124,4 @@ class  arraySearching {
         return false;
     }
 }
+

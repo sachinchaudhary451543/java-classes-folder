@@ -8,13 +8,13 @@
 // long eBig = (long) 3.4;
 // int eInt = (int) 3.4;
 
-// public class casting {
-//     public static void main(String[] args) {
-//        float myFloat = 5;
-//        System.out.println(myFloat);
+ public class casting {
+     public static void main(String[] args) {
+        float myFloat = 5;
+        System.out.println(myFloat);
        
        
-//        int myInt = (int) 5.45f;
-//        System.out.println(myInt);
-//     }
-// }
+        int myInt = (int) 5.45f;
+        System.out.println(myInt);
+     }
+ }
